@@ -50,8 +50,17 @@
     
   <div class="cover-frame">
     <div class="bg-box">
-      <img src="/images/cover1.jpg" alt="image frame" />
+      <img src="" alt="" id="cover-pic" />
     </div>
+    <script>
+    $(document).ready(function(){
+        var i=Math.floor((Math.random()*));
+        imgs=[ "/MLISYF.github.io/", "/MLISYF.github.io/i", "/MLISYF.github.io/m", "/MLISYF.github.io/a", "/MLISYF.github.io/g", "/MLISYF.github.io/e", "/MLISYF.github.io/s", "/MLISYF.github.io/", "/MLISYF.github.io/c", "/MLISYF.github.io/o", "/MLISYF.github.io/v", "/MLISYF.github.io/e", "/MLISYF.github.io/r", "/MLISYF.github.io/1", "/MLISYF.github.io/.", "/MLISYF.github.io/j", "/MLISYF.github.io/p", "/MLISYF.github.io/g",]
+        pic=document.getElementById("cover-pic");
+        pic.src=imgs[i];
+    })
+    </script>
+      <!-- 到这里结束 -->
     <div class="cover-inner text-center text-white">
       <h1><a href="/MLISYF.github.io/">ML</a></h1>
       <div id="subtitle-box">
