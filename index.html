@@ -50,8 +50,16 @@
     
   <div class="cover-frame">
     <div class="bg-box">
-      <img src="/images/cover1.jpg" alt="image frame" />
+      <img src="" alt="" id="cover-pic" />
     </div>
+    <script>
+    $(document).ready(function(){
+    	var i=Math.floor((Math.random()*8));
+    	imgs=[ "https://cdn.jsdelivr.net/gh/Justlovesmile/CDN2/post/cover1.JPG", "https://cdn.jsdelivr.net/gh/Justlovesmile/CDN2/post/cover2.jpg", "https://cdn.jsdelivr.net/gh/Justlovesmile/CDN2/post/cover3.jpg", "https://cdn.jsdelivr.net/gh/Justlovesmile/CDN2/post/cover4.jpg", "https://cdn.jsdelivr.net/gh/Justlovesmile/CDN2/post/cover5.JPG", "https://cdn.jsdelivr.net/gh/Justlovesmile/CDN2/post/cover6.JPG", "https://cdn.jsdelivr.net/gh/Justlovesmile/CDN2/post/cover7.JPG", "https://cdn.jsdelivr.net/gh/Justlovesmile/CDN2/post/cover8.JPG",]
+    	pic=document.getElementById("cover-pic");
+    	pic.src=imgs[i];
+    })
+    </script>
     <div class="cover-inner text-center text-white">
       <h1><a href="/MLISYF.github.io/">ML</a></h1>
       <div id="subtitle-box">
@@ -60,6 +68,12 @@
         
       </div>
       <div>
+        
+        <img
+          src="true"
+          class="cover-logo"
+          alt="ML"
+        />
         
       </div>
     </div>
